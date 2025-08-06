@@ -1,0 +1,27 @@
+package lotus;
+import java.util.Scanner;
+public class large {
+public static void main(String[]args){
+	int num1,num2;
+	Scanner a=new Scanner(System.in);
+
+	System.out.print("Enter The First Number:");
+	num1=a.nextInt();
+	System.out.println("Enter The Second Number:");
+	num2=a.nextInt();
+ 
+	if(num1>num2){
+		System.out.println("The Largest Number Is :"+num1);
+		
+	}
+	else if(num2>num1){
+		System.out.println("The Largest Number Is :"+num2);
+		
+	}
+	else{
+		System.out.print("There Are Equal Numbers");
+			
+		
+	}
+}
+}
