@@ -1,0 +1,38 @@
+package lotus;
+import java.util.Scanner;
+public class grade {
+public static void main(String[]args){
+
+	Scanner a=new Scanner(System.in);
+	 System.out.println("transmission and Distribution Mark:");
+	 int sub1 =a.nextInt();
+	 System.out.println("EVS Mark:");
+	 int sub2=a.nextInt();
+	 System.out.println("Liner Integrated Circuits Mark:");
+	 int sub3=a.nextInt();
+	 System.out.println("Measurements and instumentation Mark:");
+	 int sub4=a.nextInt();
+     System.out.println("Microprocessor and Microcontroller Mark:");
+     int sub5=a.nextInt();
+     System.out.println("Electrical Machines-2 Mark:");
+     int sub6=a.nextInt();
+ int add =(sub1+sub2+sub3+sub4+sub5+sub6); 	
+ double total = ((add / 600.0) * 10);
+  System.out.println("total:" + add);
+  System.out.println("percentage:" + total);
+ if(1.0<total>0.9) {
+	 System.out.println("Grade A:");
+ }
+ else if(8.9<total>8.0){
+ System.out.println("Grade B");
+	
+ }
+else if(7.9<total>7.0){
+	System.out.println("Grade C") 
+}
+}
+ else if(total<5){
+	 System.out.println("Fail");
+ }
+}
+}
