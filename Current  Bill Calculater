@@ -1,0 +1,36 @@
+package thamarai;
+
+import java.util.Scanner;
+
+public class current {
+
+	public static void main(String[] args) {
+	
+		 System.out.println("Enter Your Current Bill :");
+			Scanner sc=new Scanner(System.in);
+	      int a=sc.nextInt();
+	    int   total=a/100;
+	    switch(total){
+	    
+	    case 0:
+	    	System.out.println("Used Unit:");
+	    	System.out.println(total=a*2);
+	    	break;
+	    
+	    case 1:
+	    	System.out.println("Used Unit:");
+	    	System.out.println(total=a*3);
+	    	break;
+	    
+	    case 2:
+	    	System.out.println("Used Unit:");
+	    	System.out.println(total=a*4);
+	    	break;
+	 
+	    default :
+	    	System.out.println("Cross Limit !!!");
+	    }
+	}
+
+}
+
