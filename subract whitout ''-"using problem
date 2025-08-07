@@ -1,0 +1,22 @@
+package thamarai2006;
+import java.util.Scanner;
+public class addwhitout_plus{
+	public static int add(int a,int b){
+		for(int i=1;i<=b;i--){
+			a--;
+		}
+		return b;
+	}
+	
+	public static void main(String[] args) {
+		System.out.println("Enter The Number");
+		Scanner apple=new Scanner(System.in);
+int m =apple.nextInt();
+         System.out.println("Enter The Number");
+         int n =apple.nextInt();
+		int result = add(m,n);
+		System.out.println("Sum Whitout'='is:"+result);
+		
+	}
+}
+
