@@ -1,0 +1,27 @@
+public class LargestThreeNumbers {
+    public static void main(String[] args) {
+        int[] numbers = {12, 45, 67, 23, 89, 34, 90, 11};
+
+        int first = Integer.MIN_VALUE;
+        int second = Integer.MIN_VALUE;
+        int third = Integer.MIN_VALUE;
+
+        for (int num : numbers) {
+            if (num > first) {
+                third = second;
+                second = first;
+                first = num;
+            } else if (num > second && num != first) {
+                third = second;
+                second = num;
+            } else if (num > third && num != second && num != first) {
+                third = num;
+            }
+        }
+
+        System.out.println("Largest three numbers are:");
+        System.out.println(first);
+        System.out.println(second);
+        System.out.println(third);
+    }
+}
