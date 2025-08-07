@@ -1,0 +1,19 @@
+package lotus;
+import java.util.Scanner;
+public class rectangle {
+
+	public static void main(String[] args) {
+		System.out.println("\n Hi I am  Calculator");
+		Scanner sc =new Scanner(System.in);
+		
+		System.out.println("Enter the first length:");
+	     int a=sc.nextInt();
+	    System.out.println("Enter the Second Breath:");
+        int  b=sc.nextInt();
+        int area=a*b;
+        System.out.println(area);
+        
+      
+	}
+
+}
