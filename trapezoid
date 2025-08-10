@@ -1,0 +1,34 @@
+package thamarai2006;
+import java.util.Scanner;
+public class trapezoid {
+public static float tra(float a,float b){
+	for(int i=0;i<a;i++){
+		b++;	
+	}
+	return b;
+}
+public static float zo(float z, float result2 ){
+	for(int i=0;i<z;i++){
+		result2++;
+		
+	}
+	return result2;
+	
+}
+
+	public static void main(String[] args) {
+		
+		Scanner kalki=new Scanner(System.in);
+		System.out.println("Enter The First Side: ");
+		float x=kalki.nextFloat();
+		System.out.println("Enter The Second Side: ");
+		float y=kalki.nextFloat();
+        float result=tra(x,y)/2;
+         System.out.println("Enter The Hight: ");
+ 		float z=kalki.nextFloat();
+ 		 float result2=result;
+ 		float result1=zo(z,result2);
+ 		System.out.println("Area Is:"+result1);
+	}
+
+}
