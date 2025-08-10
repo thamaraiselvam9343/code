@@ -1,0 +1,19 @@
+package thamarai2006;
+import java.util.Scanner;
+public class ellipse {
+
+	public static double eli(double a,double b){
+	double	 s =3.142*a*b;
+	return s;
+}
+public static void main(String[] args) {
+	Scanner p=new Scanner(System.in);
+	System.out.println("Enter The Half Minor Axis:");
+	double  x=p.nextDouble();
+	System.out.println("Enter The Half Major axis:");
+	double  y=p.nextDouble();
+	double ans=eli(x,y);
+	System.out.println(" Area:"+ans);
+}
+
+}
