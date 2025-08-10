@@ -1,0 +1,19 @@
+package thamarai2006;
+
+public class method1 {
+	  public static int add(int num1, int num2) {
+	        return num1 + num2;
+	    }
+
+	    public static void main(String[] args) {
+	        int n = 10;
+	        int m = 20;
+	        int result =add(n,m);
+	        System.out.println("The Sum Is : " + result);
+	    }
+	
+	
+
+	}
+
+
