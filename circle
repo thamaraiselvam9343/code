@@ -1,17 +1,40 @@
 package thamarai2006;
 import java.util.Scanner;
 public class circle {
-public static double n(double a){
-	
-double	 m =3.142*a*a;
-		return m;
-}
+
+	public static double cir(double a,double b){
+
+	double hi=0;
+	double hello=0;
+	while(hi<a){
+		hello=hello+b;
+		hi++;
+	}
+		return hello;
+		
+	}
+	public static double le(double ans,double y){
+
+		double hi=0;
+		double hello=0;
+		while(hi<ans){
+			hello=hello+y;
+			hi++;
+		}
+			return hello;
+			
+	}
+
+
 	public static void main(String[] args) {
 		Scanner p=new Scanner(System.in);
 		System.out.println("Enter The Radius:");
-		double  a=p.nextDouble();
-		double ans=n(a);
-		System.out.println("circle of Area:"+ans);
+		double  m=p.nextDouble();
+		double n=m;
+		double ans=cir(m,n);
+		double y=3.142;
+	double	ans1=le(ans,y);
+		System.out.println("circle of Area:"+ans1+" radius");
 	}
 
 }
