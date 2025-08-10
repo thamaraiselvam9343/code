@@ -1,0 +1,26 @@
+package thamarai2006;
+
+import java.util.Scanner;
+
+public class parallelogram{
+public static  int multi(int a,int b){
+	int	apple=0;
+		for(int i=0;i<a;i++){
+			
+			apple=apple+b;
+			
+		}
+		return apple;
+		
+	}
+	public static void main(String[] args) {
+		System.out.println("Enter Base b:");
+		Scanner orange=new Scanner(System.in);
+         int m =orange.nextInt();
+         System.out.println("Enter verticle hight h:");
+         int n =orange.nextInt();
+         int ans = multi(m,n);
+        		 System.out.println("Area is :"+ans);
+	}
+
+}
