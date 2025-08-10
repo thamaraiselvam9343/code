@@ -1,0 +1,29 @@
+package thamarai2006;
+
+import java.util.Scanner;
+
+public class square1 {
+
+	public static double sq(double a,double b){
+
+	double mango=0;
+	double mang=0;
+	while(mango<a){
+		mang=mang+b;
+		mango++;
+	}
+		return mang;
+		
+	}
+
+
+public static void main(String[] args) {
+	Scanner n=new Scanner(System.in);
+	System.out.println("Enter The length :");
+	double x=n.nextDouble();
+	double y=x;
+  double result=sq(x,y);
+System.out.println("Area Is :"+result+"cm");
+	}
+
+}
