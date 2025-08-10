@@ -1,0 +1,26 @@
+package thamarai2006;
+import java.util.Scanner;
+public class triangle {
+	public static  float tri(float a,float b){
+		float app=0;
+		float apps=0;
+		while(app<a){
+			apps=apps+b;
+			app++;
+		}
+		System.out.println(apps); 
+			return apps;
+			
+		}
+	
+	public static void main(String[] args) {
+		Scanner n=new Scanner(System.in);
+		System.out.println("Enter The Base: ");
+		float x=n.nextFloat();
+		System.out.println("Enter The Hight: ");
+		float y=n.nextFloat();
+		float res=tri(x,y);
+		System.out.println("Area Is:"+res/2);
+	}
+
+}
