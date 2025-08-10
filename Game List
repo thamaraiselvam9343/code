@@ -1,0 +1,204 @@
+package thamarai;
+
+import java.util.Scanner;
+
+public class game_centre {
+
+	public static void main(String[] args) {
+		int a;
+	Scanner sc=new Scanner(System.in);
+		 System.out.println("Game List:");
+		 System.out.println("1.God Of War :");
+		 System.out.println("2.GTA V:");
+		 System.out.println("3.SpiderMan 2:");
+		 System.out.println("4.Sekiro Shadow Die Twice:");
+		 System.out.println("5.Exit:");
+		 System.out.println("\n Choose List:");
+		 int A=sc.nextInt();
+		
+		
+		
+	switch(A){
+	 
+	case 1:
+		
+		 int amount =500;
+		System.out.println(" God Of War :"+ amount);
+		System.out.println("\n Payment Method");
+		System.out.println("1.G pay Method");
+		System.out.println("2.Patym Method");
+		System.out.println("3.card Method");
+		System.out.println("4.Reedam code Method");
+		int p=sc.nextInt();
+		switch(p){
+		
+		case 1:
+		
+			System.out.println("1.G pay Method");
+			System.out.println("Pay The Amount:");
+			
+			break;
+		case 2:
+			System.out.println("2.Patym Method");
+			System.out.println("Pay The Amount:");
+			break;
+		case 3:
+			System.out.println("3.card Method");
+			System.out.println("Pay The Amount:");
+			break;
+		case 4:
+			System.out.println("4.Reedam code Method");
+			System.out.println("Pay The Amount:");
+		break;
+		
+		}
+		int pay=sc.nextInt();
+		if(pay==amount){
+			System.out.println(" purchesed succesfully");
+		}
+		else{
+			System.out.println("Not Abile To Purchest");
+		}
+	
+		break;
+		
+		
+	case 2:
+		 int amount1 =900;
+			System.out.println("GTA V:"+ amount1);
+			System.out.println("\n Payment Method");
+			System.out.println("1.G pay Method");
+			System.out.println("2.Patym Method");
+			System.out.println("3.card Method");
+			System.out.println("4.Reedam code Method");
+			int m=sc.nextInt();
+			switch(m){
+			
+			case 1:
+			
+				System.out.println("1.G pay Method");
+				System.out.println("Pay The Amount:");
+				
+				break;
+			case 2:
+				System.out.println("2.Patym Method");
+				System.out.println("Pay The Amount:");
+				break;
+			case 3:
+				System.out.println("3.card Method");
+				System.out.println("Pay The Amount:");
+				break;
+			case 4:
+				System.out.println("4.Reedam code Method");
+				System.out.println("Pay The Amount:");
+			break;
+			
+			}
+			int pay1=sc.nextInt();
+			if(pay1==amount1){
+				System.out.println(" purchesed succesfully");
+			}
+			else{
+				System.out.println("Not Abile To Purchest");
+			}
+		
+			break;
+			
+		
+	 	
+		
+	case 3:
+		 int amount2 =1000;
+			System.out.println(" SpiderMan 2:"+ amount2);	System.out.println("\n Payment Method");
+			System.out.println("1.G pay Method");
+			System.out.println("2.Patym Method");
+			System.out.println("3.card Method");
+			System.out.println("4.Reedam code Method");
+			int q=sc.nextInt();
+			switch(q){
+			
+			case 1:
+			
+				System.out.println("1.G pay Method");
+				System.out.println("Pay The Amount:");
+				
+				break;
+			case 2:
+				System.out.println("2.Patym Method");
+				System.out.println("Pay The Amount:");
+				break;
+			case 3:
+				System.out.println("3.card Method");
+				System.out.println("Pay The Amount:");
+				break;
+			case 4:
+				System.out.println("4.Reedam code Method");
+				System.out.println("Pay The Amount:");
+			break;
+			
+			}
+			
+			int pay2=sc.nextInt();
+			if(pay2==amount2){
+				System.out.println(" purchesed succesfully");
+			}
+			else{
+				System.out.println("Not Abile To Purchest");
+			}
+		
+			break;
+			
+		
+	case 4:
+		 int amount3 =2000;
+			System.out.println(" 4.Sekiro Shadow Die Twice :"+ amount3);
+			System.out.println("\n Payment Method");
+			System.out.println("1.G pay Method");
+			System.out.println("2.Patym Method");
+			System.out.println("3.card Method");
+			System.out.println("4.Reedam code Method");
+			int s=sc.nextInt();
+			switch(s){
+			
+			case 1:
+			
+				System.out.println("1.G pay Method");
+				System.out.println("Pay The Amount:");
+				
+				break;
+			case 2:
+				System.out.println("2.Patym Method");
+				System.out.println("Pay The Amount:");
+				break;
+			case 3:
+				System.out.println("3.card Method");
+				System.out.println("Pay The Amount:");
+				break;
+			case 4:
+				System.out.println("4.Reedam code Method");
+				System.out.println("Pay The Amount:");
+			break;
+			
+			}
+			
+			int pay3=sc.nextInt();
+			if(pay3==amount3){
+				System.out.println(" purchesed succesfully");
+			}
+			else{
+				System.out.println("Not Abile To Purchest");
+			}
+		
+			break;
+			
+	case 5:
+		
+			System.out.println("exit");
+		
+	 	
+	break;
+	}
+	}
+}
+
+	
