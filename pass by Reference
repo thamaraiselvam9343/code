@@ -1,0 +1,20 @@
+package thamarai2006;
+import java.util.Scanner;
+public class pass {
+Scanner sc=new Scanner(System.in);
+int i=sc.nextInt();
+int j=sc.nextInt();
+public static void li(pass w){
+	if (w.i>w.j){
+		System.out.println("Large Number:"+w.i);
+	}
+	else{
+		System.out.println("Large Number:"+w.j);
+	}
+}
+	public static void main(String[] args) {
+		pass w=new pass();
+		li(w);
+	}
+
+}
