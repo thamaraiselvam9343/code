@@ -1,0 +1,42 @@
+package thamarai2006;
+import java.util.Scanner;
+public class sector {
+	public static double sq(double a,double b){
+
+	double mango=0;
+	double mang=0;
+	while(mango<a){
+		mang=mang+b;
+		mango++;
+	}
+		return mang;
+		
+	}
+ public static double mul(double result,double nun){
+	 
+		double hi=0;
+		double hello=0;
+		while(hi<result){
+			hello=hello+nun;
+			hi++;
+		}
+			return hello;
+			
+	}
+
+ 
+
+public static void main(String[] args) {
+	Scanner n=new Scanner(System.in);
+	System.out.println("Enter The Radius:");
+	double x=n.nextDouble();
+	double y=x;
+System.out.println("Enter The Angle:");
+	double w=n.nextDouble();
+	double z=w;
+  double result=sq(x,y);
+double result1=mul(result,z);
+		System.out.println("The Area Is :"+result1/2);
+	}
+
+}
