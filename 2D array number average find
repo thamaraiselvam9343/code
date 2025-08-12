@@ -1,0 +1,20 @@
+package thamarai2006;
+
+public class avegra{
+	
+
+	public static void main(String[] args) {
+        int[][] numbers ={ {8, 20, 41, 56,67},{67,71,99,22},{56,45,34,21},{54,76,56,23}};
+  for(int i=0;i<numbers.length;i++){
+	  
+        float sum = 0;
+        for(int j=0;j<numbers[i].length;j++){
+        	sum=sum+numbers[i][j];
+        	
+  }
+ float average=sum/numbers[i].length;
+        System.out.println("Average Number Is: " +average);
+}
+
+}
+}
