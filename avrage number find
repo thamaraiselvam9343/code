@@ -1,0 +1,16 @@
+package thamarai2006;
+
+public class avg {
+	
+    public static void main(String[] args) {
+        int[] numbers = {8, 20, 41, 56,67};
+        int sum = 0;
+
+        for (int num : numbers) {
+            sum += num;
+        }
+
+        int average =  sum / numbers.length;
+        System.out.println("Average Number Is: " + average);
+    }
+}
