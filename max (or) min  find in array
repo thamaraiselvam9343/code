@@ -1,0 +1,30 @@
+package thamarai2006;
+
+public class max_or_min {
+
+	public static void main(String[] args) {
+	
+		        int[] num = {99,34,4,88,24,4};
+
+		        int max = num[0];
+		        int min = num[0];
+		     
+		        for (int i = 1; i < num.length; i++) {
+		        	
+		            if (num[i] > max) {
+		                max = num[i];
+		            }
+		            else if (num[i] < min) {
+		                min = num[i];
+		            }
+		          
+		        }
+
+		        System.out.println("Maximum number Is: " + max);
+		        System.out.println("Minimum number Is: " + min);
+		        
+		    }
+		
+	}
+
+
