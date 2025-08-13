@@ -1,0 +1,32 @@
+package thamarai2006;
+import java .util.Scanner;
+public class Stri {
+
+	public static void main(String[] args) {
+		System.out.println("Enter First Word:");
+		Scanner sc=new Scanner(System.in);
+		String a=sc.next();
+		System.out.println("Enter Second Word:");
+        String b=sc.next();
+        int count=0;
+        int n=a.length();
+        
+        for(int i=0;i<a.length();i++){
+        	for(int j=0;i<b.length();j++){
+        		char c=a.charAt(i);
+        		char d=b.charAt(j);
+        	if(c==d){
+        	count++;
+        	}
+        	
+	}
+
+        }
+        if(count==n){
+        	System.out.println(true);
+        }
+        else{
+        	System.out.println(false);
+        }
+	}
+}
