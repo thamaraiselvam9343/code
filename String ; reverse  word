@@ -1,0 +1,8 @@
+package thamarai2006;
+public class mu {
+	    public static void main(String[] args) {
+	    	StringBuffer s=new StringBuffer("javajava");
+	    	s.reverse();
+	        System.out.println("After reverse The Word:"+s);
+}
+	}
