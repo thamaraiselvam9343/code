@@ -1,0 +1,22 @@
+package thamarai2006;
+
+public class Stringlength {
+
+	public static  coure(Srting str,char ch) {
+		int total=0;
+		for(char c:str.tocharArray){
+			if(c==ch)
+			
+				total++;
+				
+			
+		}
+		return total++;
+	}
+		public static void main(String[] args) {
+		System.out.println(coure("hello world",'a'));
+	}
+		
+		}
+
+}
