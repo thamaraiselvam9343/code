@@ -1,0 +1,18 @@
+package thamarai2006;
+
+public class white {
+
+	public static void main(String[] args) {
+		String a="Java Java";
+		        char ch1 = ' ';
+		        char ch2 = '\n';
+		        char ch3 = 'a';
+
+		        System.out.println(Character.isWhitespace(ch1)); // true
+		        System.out.println(Character.isWhitespace(ch2)); // true
+		        System.out.println(Character.isWhitespace(ch3)); // false
+		    
+		
+	
+
+}}
