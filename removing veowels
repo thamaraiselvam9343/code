@@ -1,0 +1,22 @@
+package thamarai2006;
+
+public class remove {
+
+	public static void main(String[] args) {
+		 String a = "thammaraiselvam";
+		 String b="";
+	       
+
+	        for (int i = 0; i <a.length(); i++) {
+	            if ('a'==a.charAt(i)||'u'==a.charAt(i) ||'o'==a.charAt(i) || 'i'==a.charAt(i) ||'e'==a.charAt(i)){
+	               
+	            }
+	            else{
+	            	b=b+(a.charAt(i));
+	            }
+	        }
+
+	        System.out.println("Total whitespace characters: " +b);
+	}
+
+}
